@@ -33,6 +33,8 @@
          - name: Print goodbye
            run: echo "Done - Bye!"
 ```
+Note on the "on: workflow_dispatch" text above.  It means there is no event that trigger this workflow and we will trigger the workflow execution manually.
+
 5. Click on 'Start commit' to commit the first-action.yml file
    - Enter text for the commit's title
    - Enter text for the commit's description
