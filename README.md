@@ -33,3 +33,12 @@
          - name: Print goodbye
            run: echo "Done - Bye!"
 ```
+5. Click on 'Start commit' to commit the first-action.yml file
+   - Enter text for the commit's title
+   - Enter text for the commit's description
+   - Click on 'Commit new file'
+  
+6. Execute the 'first-action.yml' workflow
+   - Click on Actions tab
+   - Click on the 'First Workflow' on the left panel
+   - Click on the 'Run workflow' button, select the branch and click on the 'Run workflow' to run the workflow
