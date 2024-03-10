@@ -42,3 +42,8 @@
    - Click on Actions tab
    - Click on the 'First Workflow' on the left panel
    - Click on the 'Run workflow' button, select the branch and click on the 'Run workflow' to run the workflow
+  
+7. View workflow log
+   - The workflow main panel contains the list of executed workflows
+   - Click on the 'First Workflow' then click on the job on the workflow to see the job's log
+      
