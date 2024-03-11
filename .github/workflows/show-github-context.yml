@@ -1,0 +1,12 @@
+name: Show GitHub Context 
+on: workflow_dispatch
+jobs:
+  show-context-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print more info
+        run: echo "See other contexts https://docs.github.com/en/enterprise-cloud@latest/actions/learn-github-actions/contexts"
+      - name: Print GitHub context
+        run: echo "${{ toJson(github) }}"
+      - name: Print goodbye
+        run: echo "Done - Bye!"
