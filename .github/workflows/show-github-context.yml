@@ -7,6 +7,8 @@ jobs:
       - name: Print more info
         run: echo "See other contexts https://docs.github.com/en/enterprise-cloud@latest/actions/learn-github-actions/contexts"
       - name: Print GitHub context
-        run: echo "${{ toJson(github) }}"
+        run: |
+          echo "${{ toJson(github) }}.repository"
+          echo "${{ toJson(github) }}"
       - name: Print goodbye
         run: echo "Done - Bye!"
